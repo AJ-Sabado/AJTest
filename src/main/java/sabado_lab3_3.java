@@ -46,6 +46,7 @@ public class sabado_lab3_3 {
         }
         
         String sign;
+        
         sign =    month == 1 ? (day < 20 ? "Capricorn" : "Aquarius")
                 : month == 2 ? (day < 19 ? "Aquarius" : "Pisces")
                 : month == 3 ? (day < 21 ? "Pisces" : "Aries")
